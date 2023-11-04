@@ -1,0 +1,632 @@
+*{
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*--Nav Start--*/
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+.Parent-div{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.Parent-div1{
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+
+}
+
+
+
+
+.Parent-div2{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1{
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ .ul-flex{
+    display: flex;
+    
+ }
+
+nav ul li{
+    margin: 0px 10px;
+    color: black;
+}
+
+nav ul li:hover{
+    color: brown
+}
+
+.para:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ .box2{
+     width: 40%;
+     height: 15vh;
+  }
+
+  .box2-1{
+    width: 50%;
+    height: 50px;
+    margin: 20px auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(204, 51, 51);
+  }
+
+  .box2-1:hover{
+    background-color: brown;
+  }
+/*--Nav end--*/
+
+.img-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/darken\ image.png);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.para-div1{
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+}
+
+.para-div2{
+    width: 50%;
+    height: 25vh;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 50px; 
+}
+
+.para-div3{
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+}
+
+.para-div-box{
+    width: 95%;
+    height: fit-content;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-div-box1{
+    width: 32%;
+    height: fit-content;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.para-div-box2{
+    width: 32%;
+    height: fit-content;
+    background-color:ghostwhite;
+    border-radius: 10px;
+}
+
+.para-div-box3{
+    width: 32%;
+    height: fit-content;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.div-box3{
+    width: 15%;
+    height: 60px;
+    background-color: brown;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.div-box4{
+    width: 100%;
+    height: 500px;
+    background-color:  rgb(17, 17, 73);
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-boxa{
+   width: 45%; 
+   height: 400px;
+   margin: 70px auto;
+   color: white;
+   
+}
+
+.div-boxb{
+    width: 45%; 
+    height: 400px;
+    background-color: black;
+    margin:70px auto;
+    
+ }
+
+.div-box5{
+    width: 80%;
+    height: fit-content;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-boxa{
+    width: 32%;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url(../img/I1.jpg);
+    color: white;
+}
+
+.para-boxb{
+    width: 32%;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url(../img/I2.jpg);
+    color: white;
+}
+
+.para-boxc{
+    width: 32%;
+    height: 400px;
+    background-color: orangered;
+    border-radius: 10px;
+    background-image: url(../img/I3.jpg);
+    color: white;
+}
+
+.div-box6{
+    width: 15%;
+    height: 60px;
+    background-color: brown;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.div-box7{
+    width: 100%;
+    height: 600px;
+    background-color:  rgb(92, 91, 91);
+    color: white;
+}
+
+.div-box7a{
+    width: 100%;
+    height: 150px;
+}
+
+.div-box7b{
+    width: 80%;
+    height: fit-content;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-boxa{
+    width: 32%;
+    height: 350px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+.Child-div1{
+    width: 80%;
+    height: fit-content;
+    margin: 25px auto;
+
+}
+
+.div1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div2{
+    width: 100%;
+    height: 200px;
+    background-color: ghostwhite;
+    color: black;
+}
+
+
+
+.child-boxb{
+    width: 32%;
+    height: 350px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+.Child-div2{
+    width: 80%;
+    height: 300px;
+    margin: 25px auto;
+
+}
+.div3{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div4{
+    width: 100%;
+    height: 200px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}
+
+
+.child-boxc{
+    width: 32%;
+    height: 350px;
+    background-color: ghostwhite; 
+    border-radius: 10px;
+}
+
+.Child-div3{
+    width: 80%;
+    height: 300px;
+    margin: 25px auto;
+
+}
+
+.div5{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div6{
+    width: 100%;
+    height: 200px;
+    background-color: ghostwhite;
+    color: black;
+}
+
+.boxa{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.boxb{
+    width: 65%;
+    height: 80px;
+    
+}
+
+.boxc{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.boxd{
+    width: 65%;
+    height: 80px;
+}
+
+.boxe{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.boxf{
+    width: 65%;
+    height: 80px;
+}
+
+
+.table-div{
+    width: 60%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+table{
+    height: 200px;
+    font-size: 20px
+}
+tr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(41, 40, 40);
+}
+
+table tr td{
+    padding: 0px 15px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(2, 2, 36);
+    display: flex;
+    align-items: center;
+}
+
+.fdiv{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+  
+}
+
+.fdiv1{
+    width: 40%;
+    height: 300px;
+}
+
+.fdiv2{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fbox1{
+    width: 100%;
+    height: 100px;
+}
+
+.fbox2{
+    width: 100%;
+    height: 200px;    
+}
+
+
+.fbox3{
+    width: 30%;
+    height: fit-content;
+}
+
+
+.fbox4{
+    width: 30%;
+    height: fit-content;
+}
+
+
+.fbox5{
+    width: 30%;
+    height: fit-content;
+}
+
+.para-anchor:hover{
+    text-decoration: underline white;
+}
+
+
+@media only screen and (max-width:575px){
+    .para-div-box{
+        display: block;
+    }
+    .para-div-box1{
+        width: 90%;
+        margin: auto;  
+    }
+
+     .para-div-box2{
+        width: 90%;
+        margin: 5px auto;   
+    }
+
+     .para-div-box3{
+        width: 90%;
+        margin: 5px auto;   
+    }
+
+    .div-box3{
+        width: 50%;
+    }
+
+    .div-box4{
+        display: block;
+        width: 100%;
+        height: 900px;
+    }
+
+    .div-boxa{
+        height: fit-content;
+        width: 90%;
+        font-size: 40px;
+        margin-top: 5px;
+        
+    }
+
+      .div-boxb{
+        height: fit-content;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .div-box5{
+        display: block;
+        width: 100%;
+    }
+
+    .para-boxa{
+        width: 90%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .para-boxb{
+        width: 90%;
+        margin: auto;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .para-boxc{
+        width: 90%;
+        margin: auto;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .div-box6{
+        width: 50%;
+    }
+
+    .div-box7{
+        height: fit-content;
+    }
+
+
+    .div-box7b{
+       display: block;
+        
+       width: 100%;
+    }
+
+    .child-boxa{
+        width: 90%;
+        margin: auto;
+    }
+
+    .child-boxb{
+        width: 90%;
+        margin: auto;
+    }
+    .child-boxc{
+        width: 90%;
+        margin: auto;
+    }
+
+    .table-div{
+        width: 90%;
+        height: fit-content;
+    }
+
+    footer{
+        height: fit-content;
+
+    }
+
+
+    .fdiv{
+        display: block;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .fdiv1{
+        height: fit-content;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .fdiv2{
+        margin:  auto;
+        height: fit-content;
+        width: 90%;
+        display: block;
+        
+    }
+
+
+    .fbox4{
+        margin-top: 10px;
+    }
+
+    .fbox5{
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .para-div2{
+        width: 90%;
+    }
+
+    .Parent-div{
+        width: 100%;
+        
+    }
+
+    .ul-flex{
+        display: block;
+    }
+
+    .box2{
+        width: 100%;
+    }
+
+    .para{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+   
+}
